@@ -53,11 +53,11 @@ class _InfopageState extends State<Infopage> {
                       width: 20,
                     ),
                     AgeSelector(),
-                    SizedBox(
-                      height: 20,
-                    ),
                   ],
                 ),
+              ),
+              SizedBox(
+                height: 20,
               ),
               CustomButton(
                 text: 'CALCULATE',
