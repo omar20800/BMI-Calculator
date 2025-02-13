@@ -15,20 +15,20 @@ class _HeightSelectorState extends State<HeightSelector> {
   Widget build(BuildContext context) {
     return Expanded(
       child: Container(
-          padding: EdgeInsets.all(20),
+          padding: const EdgeInsets.all(20),
           decoration: BoxDecoration(
               color: AppColours.secondaryColor,
               borderRadius: BorderRadius.circular(10)),
           child: Column(
             children: [
-              Text(
+              const Text(
                 "Height",
                 style: TextStyle(
                     color: Colors.grey,
                     fontSize: 20,
                     fontWeight: FontWeight.bold),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
               Row(
@@ -41,10 +41,10 @@ class _HeightSelectorState extends State<HeightSelector> {
                         fontSize: 50,
                         fontWeight: FontWeight.bold),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 5,
                   ),
-                  Text(
+                  const Text(
                     "cm",
                     style: TextStyle(
                         color: Colors.grey,
